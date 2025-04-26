@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  angular-app-test:
+    container_name: angular-app-test
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: testing
+    volumes:
+      - .:/app
+      - /app/node_modules  
+    ports:
+      - "3002:3000"
+    environment:
+      - NODE_ENV=testing
