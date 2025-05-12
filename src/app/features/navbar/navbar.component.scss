@@ -1,0 +1,25 @@
+
+.matList {
+    width: 100%;
+}
+.logo-toggle {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 230, 230);
+    align-items: center;
+
+}
+.MatlistContainer {
+    display: flex;
+    flex: 0 0 25%;
+}
+.MatlistContainer button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.list-container {
+    display: flex;
+    flex: 0 0 75%;
+    justify-content: flex-end;
+}

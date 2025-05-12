@@ -6,7 +6,7 @@ on:
       - dev
       - test
       - master 
-
+    
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
